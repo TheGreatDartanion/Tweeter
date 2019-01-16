@@ -21,6 +21,7 @@
 
 
 # Dependencies
+import os
 import tweepy
 import time
 import json
@@ -35,10 +36,10 @@ import datetime
 # Import Twitter and Weather API Keys
 
 ## COMMENT THIS OUT before deploying to Heroku!
-# import sys
-# sys.path.append('../../../../..')
-# from config import consumer_key, consumer_secret, access_token, access_token_secret
-# weather_api_key = "25bc90a1196e6f153eece0bc0b0fc9eb"
+#import sys
+#sys.path.append('../../../../..')
+#from config import consumer_key, consumer_secret, access_token, access_token_secret
+#weather_api_key = "25bc90a1196e6f153eece0bc0b0fc9eb"
 
 ## REMOVE THESE COMMENTS before deploying to Heroku!
 consumer_key = os.environ.get("consumer_key")
