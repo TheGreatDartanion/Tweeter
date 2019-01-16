@@ -87,7 +87,7 @@ def WeatherTweet():
 # Set timer to run every 1 minute (for testing a Twitter deployment)
 while(True):
     WeatherTweet()
-    time.sleep(60)
+    time.sleep(3600)
 
 
 # ### Export this file to Python (.py)
